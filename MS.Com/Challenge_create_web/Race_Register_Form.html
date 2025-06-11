@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Race Register Form</h1>
+  <form action="register" method="post">
+    <p>
+    <label for ="username"> Username</label>
+    <input type="text" id = username name="username" required>
+    <label for="password">Passwoed</label>
+    <input type="password" id="password" name="password" required>
+    </p>
+    <p>
+    <label for="select_a_race">Select a race</label>
+    <input type="radio" id="fun-ran">
+    <label for="fun Run">Fun Ran</label>
+    <input type="radio" id="Half Marathon">
+    <label for="half Marathon">Half Marathon</label>
+    <input type="radio" id="Full Marathon">
+    <label for="full Marathon">Full Marathon</label>
+    </p>
+    <p>
+    <label for="email">Email</label>
+    <input type="email" id ="email" name="email" minlength="10" maxlength="50" required>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
+    </p>
+    <p>
+    <label for="group">Group</label>
+    <select id="group" name="group">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+    </select>
+    </p>
+    <p>
+      <button type="submit">Submit</button>
+    </p>
+  </form>
+
+</body>
+</html>
